@@ -1,5 +1,7 @@
 package oop;
 
+import oop.myclass.*;
+
 public class PolymorphismClass {
   public static void main(String[] args) {
     /**

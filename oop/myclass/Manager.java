@@ -1,4 +1,4 @@
-package oop;
+package oop.myclass;
 
 public class Manager extends Employee {
   public String fromManager = "from manager";

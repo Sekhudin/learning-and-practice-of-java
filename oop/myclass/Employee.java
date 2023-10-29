@@ -1,4 +1,4 @@
-package oop;
+package oop.myclass;
 
 public class Employee {
   public String name;
