@@ -12,9 +12,19 @@ public class PolymorphismClass {
      */
     Employee emp = new Employee("Sekhudin", 24);
     emp.sayHello("Jude"); // sayHello berasal dari Employee
-    emp = new Manager("Sekhudin", 24);
+    emp = new Manager("Agung", 24);
     emp.sayHello("Jude"); // sayHello berasal dari Manager
-    emp = new Secretary("Sekhudin", 24);
+    emp = new Secretary("Amelia", 24);
     emp.sayHello("Jude"); // sayHello berasal dari Secretary
+
+    // contoh lain
+    sayHello(new Employee("Sekhudin", 24));
+    sayHello(new Manager("Agung", 24));
+    sayHello(new Secretary("Amelia", 24));
+  }
+
+  static void sayHello(Employee employee) {
+    employee.sayHello("Rangga");
+    System.out.println("Hello " + employee.name);
   }
 }

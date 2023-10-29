@@ -12,6 +12,6 @@ public class Employee {
   }
 
   public void sayHello(String name) {
-    System.out.printf("Hi %s Saya, My name is Employee %s%n", name, this.name);
+    System.out.printf("Hi %s, My name is Employee %s%n", name, this.name);
   };
 }

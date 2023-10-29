@@ -1,7 +1,6 @@
 package oop.myclass;
 
 public class Manager extends Employee {
-  public String fromManager = "from manager";
 
   public Manager(String name, int age) {
     super(name, age);
@@ -9,6 +8,10 @@ public class Manager extends Employee {
   }
 
   public void sayHello(String name) {
-    System.out.printf("Hi %s Saya, My name is Manager %s%n", name, this.name);
+    System.out.printf("Hi %s, My name is Manager %s%n", name, this.name);
   };
+
+  public void fromManager() {
+    System.out.println(this.name + " is Manager");
+  }
 }
