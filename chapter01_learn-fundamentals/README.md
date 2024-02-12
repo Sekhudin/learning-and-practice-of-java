@@ -6,7 +6,7 @@
   - [Object](#2-object)
   - [Method](#3-method)
   - [Instance Variables](#4-instance-variables)
-- [A. Sintaks Dasar](#terminologi-umum-pada-java)
+- [A. Sintaks Dasar](#a-sintaks-dasar)
   - [1. Komentar pada Java](#1-komentar-pada-java)
   - [2. Penamaan *File*](#2-penamaan-file)
   - [3. *Case Sensitivity*](#3-case-sensitivity)
@@ -18,6 +18,7 @@
   - [9. *Access Modifiers*](#9-access-modifiers)
   - [10. Memahami *Access Modifiers*](#10-memahami-access-modifiers)
   - [11. *Keywords*](#11-keywords)
+- [B. Tipe Data dan Variabel]()
 
 
 ## Terminologi umum pada Java
@@ -44,7 +45,6 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
 [top ↑](#daftar-isi)<br><br>
 
 ## A. Sintaks Dasar
-
 ### 1. Komentar pada Java
   Komentar biasanaya berupa penjelasan pada kode program. komentar akan diabaikan (tidak dikompilasi) sehingga tidak akan mengganggu jalanya program. setidaknya ada 3 tipe komentar pada Java, diantaranya:
   - *Single-line Comment*
@@ -150,7 +150,7 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
   | **Public**            | Yes              | Yes                | Yes                                  | Yes             |
 
 ### 11. *Keywords*
-  *Keywords* atau *Reserved words* adalah kata-kata pada bahasa pemrograman yang digunakan untuk menjalankan beberapa proses internal atau mewakili beberapa tindakan. Kata-kata ini **tidak boeh digunakan** untuk deklarasi variabel taua Object.
+  *Keywords* atau *Reserved words* adalah kata-kata pada bahasa pemrograman yang digunakan untuk menjalankan beberapa proses internal atau mewakili beberapa tindakan. Kata-kata ini **tidak boleh digunakan** untuk deklarasi variabel atau Object.
   |          |            |           |            |        |              |
   | -------- | ---------- | --------- | ---------- | ------ | ------------ |
   | abstract | assert     |           |            |        |              |
@@ -169,5 +169,6 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
   | this     | throw      | throws    | transient  | try    |              |
   | void     | volatile   | while     |            |        |              |
 
-
 [top ↑](#daftar-isi)<br><br>
+
+## B. Tipe Data dan Variabel
