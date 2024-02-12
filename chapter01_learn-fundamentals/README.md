@@ -150,24 +150,24 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
   | **Public**            | Yes              | Yes                | Yes                                  | Yes             |
 
 ### 11. *Keywords*
-  *Keywords* atau *Reserved words* adalah kata-kata pada bahasa pemrograman yang digunakan untuk menjalankan beberapa proses internal atau mewakili beberapa tindakan. Kata-kata ini **tidak boeh digunakan** untuk deklarasi variabel taua Object. <br>
-  | -        | -          | -         | -          | -      | -            | - | - |
-  | -        | -          | -         | -          | -      | -            | - | - |
-  | abstract | assert     |
-  | boolean  | break      | byte      |
+  *Keywords* atau *Reserved words* adalah kata-kata pada bahasa pemrograman yang digunakan untuk menjalankan beberapa proses internal atau mewakili beberapa tindakan. Kata-kata ini **tidak boeh digunakan** untuk deklarasi variabel taua Object.
+  |          |            |           |            |        |              |
+  | -------- | ---------- | --------- | ---------- | ------ | ------------ |
+  | abstract | assert     |           |            |        |              |
+  | boolean  | break      | byte      |            |        |              |
   | case     | catch      | char      | class      | const  | continue     |
-  | default  | do         | double    |
-  | else     | enum       | extends   |
-  | final    | finally    | float     | floor      |
-  | goto     |
+  | default  | do         | double    |            |        |              |
+  | else     | enum       | extends   |            |        |              |
+  | final    | finally    | float     | floor      |        |              |
+  | goto     |            |           |            |        |              |
   | if       | implements | import    | instanceof | int    | interface    |
-  | long     |
-  | native   | new        |
-  | package  | private    | protected | public     |
-  | return   |
+  | long     |            |           |            |        |              |
+  | native   | new        |           |            |        |              |
+  | package  | private    | protected | public     |        |              |
+  | return   |            |           |            |        |              |
   | short    | static     | strictfp  | super      | switch | synchronized |
-  | this     | throw      | throws    | transient  | try    |
-  | void     | volatile   | while     |
+  | this     | throw      | throws    | transient  | try    |              |
+  | void     | volatile   | while     |            |        |              |
 
 
 [top ↑](#daftar-isi)<br><br>
