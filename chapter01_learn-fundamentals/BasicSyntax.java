@@ -1,4 +1,4 @@
-public class BasicSyntax {
+class BasicSyntax {
   /**
    * @param comment String
    * @return String
