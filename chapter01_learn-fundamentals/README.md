@@ -254,7 +254,7 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
     ```
   <br>
 
-  ![Tipe data primitive](images/data-type-primitive.png)
+  ![Tipe data primitive](images/data-type-primitive.png)<br>
   ***Penting untuk diingat:***
   - 1 *byte* setara dengan 8 *bit*.
   - Semua tipe data *numeric* memiliki tanda/*signed*(+/-).
@@ -268,9 +268,9 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
   #### *Type Conversion  and Type Casting*
   - ***Type Conversion*** <br>
     *Type conversion* adalah konversi nilai dari satu tipe data ke tipe data yang lain secara otomatis oleh kompiler.<br>
-    Cara kerja:<br>
+    **Cara kerja**:<br>
     Java secara otomatis melakukan *type conversion* jika diperlukan untuk mempertahankan kesesuaian tipe data dalam ekspresi atau operasi tertentu.<br>
-    Contoh:<br>
+    **Contoh**:<br>
     ```Java
     int numInt = 10;
     float numFloat = 5.5f;
@@ -280,10 +280,10 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
 
   - ***Type Casting*** <br>
     *Type Casting* adalah tindakan yang dilakukan secara manual untuk mengubah tipe data dari satu bentuk ke bentuk lain.<br>
-    Cara kerja:<br>
+    **Cara kerja**:<br>
     Berbeda dengan *type conversion*, pada *type casting*, Anda secara eksplisit menyatakan tipe data yang ingin Anda ubah, dan jika tipe data tujuan dapat menerima nilai dari tipe data asal, maka konversi akan berhasil.
     <br>
-    Contoh:<br>
+    **Contoh**:<br>
     ```Java
     double numDouble = 10.5;
     int numInt = (int) numDouble;
