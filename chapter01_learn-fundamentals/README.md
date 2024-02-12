@@ -137,9 +137,37 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
 ### 8. *White Spaces*
   *white space* semisal spasi dan tab akan diabaikan oleh kompiler.
 ### 9. *Access Modifiers*
+  *Modifier* atau pengubah adalah pengontrol yang mengontrol ruang lingkup (*scope*) dari kelas dan *method*.
+  * ***Access Modifiers:*** default, public, protected, private.
+  * ***Non-access Modifiers:*** final, abstract, static, transient, synchronized, volatile, native.
 
 ### 10. Memahami *Access Modifiers*
+  | ***Access Modifier*** | **Whitin Class** | **Whitin Package** | **Outside Package by subclass only** | Outside Package |
+  | --------------------- | ---------------- | ------------------ | ------------------------------------ | --------------- |
+  | **Private**           | Yes              | No                 | No                                   | No              |
+  | **Default**           | Yes              | Yes                | No                                   | No              |
+  | **Protected**         | Yes              | Yes                | Yes                                  | No              |
+  | **Public**            | Yes              | Yes                | Yes                                  | Yes             |
 
 ### 11. *Keywords*
+  *Keywords* atau *Reserved words* adalah kata-kata pada bahasa pemrograman yang digunakan untuk menjalankan beberapa proses internal atau mewakili beberapa tindakan. Kata-kata ini **tidak boeh digunakan** untuk deklarasi variabel taua Object. <br>
+  | - | - | - | - | - | - | - | - |
+  | - | - | - | - | - | - | - | - |
+  | abstract | assert |
+  | boolean | break | byte |
+  | case | catch | char | class | const | continue |
+  | default | do | double |
+  | else | enum | extends |
+  | final | finally | float | floor |
+  | goto |
+  | if | implements | imort | instanceof | int | interface |
+  | long |
+  | native | new |
+  | package | private | protected | public |
+  | return |
+  | short | static | strictfp | super | switch | synchronized |
+  | this | throw | throws | transient | try |
+  | void | volatile | while |
+
 
 [top ↑](#daftar-isi)<br><br>
