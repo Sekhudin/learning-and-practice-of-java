@@ -24,6 +24,9 @@
     - [Tipe Data Non-primitive](#tipe-data-non-primitive)
     - [*Type Conversion and Type Casting*](#type-conversion-and-type-casting)
   - [2. Variabel](#2-variabel)
+    - [Deklarasi Variabel](#deklarasi-variabel)
+    - [Inisialisasi Variabel](#inisialisasi-variabel)
+
 
 
 ## Terminologi umum pada Java
@@ -179,7 +182,7 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
 ## B. Tipe Data dan Variabel
 ### 1. Tipe Data (*Data Types*)
   Tipe data pada Java didefinisikan sebagai penentu yang mengalokasikan berbagai ukuran dan tipe nilai yang dapat disimpan dalam variabel atau *identifier*. <br> <br>
-  ![**Data Types**](images/data-types.png)
+  ![**Data Types**](images/data-types-variable/data-types.png)
 
   #### Tipe Data Primitive
   Tipe data primitive adalah tipe data dasar yang merepresentasikan sederhana. Tipe data ini direferensikan langsung oleh nilai sebenarnya dan tidak memiliki metode atau properti tambahan yang terkait denganya.<br>
@@ -254,7 +257,7 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
     ```
   <br>
 
-  ![Tipe data primitive](images/data-type-primitive.png)<br>
+  ![Tipe data primitive](images/data-types-variable/data-type-primitive.png)<br>
   ***Penting untuk diingat:***
   - 1 *byte* setara dengan 8 *bit*.
   - Semua tipe data *numeric* memiliki tanda/*signed*(+/-).
@@ -292,5 +295,50 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
 [top ↑](#daftar-isi)<br>
 
 ### 2. Variabel
+  #### Deklarasi Variabel
+  Untuk mendeklarasikan variabel kita perlu menentukan **tipe** dan **nama** variabel. Nama variabel **harus unik** untuk mencegah konflik.<br>
+  ![alt text](images/data-types-variable/variable-declaration.png)
+  **Contoh:**
+  ```Java
+  String firstName, fullName;
+  String name;
+  ```
+
+  #### Inisialisasi Variabel
+  Untuk menginisialisasi variabel, kita harus memberi nilai yang valid. <br>
+  **Contoh:**
+  ```Java
+  String name;
+  name = "Purnomo";
+  ```
+  Kita bisa juga deklarasi sekaligus inisialisasi variabel seperti contoh dibawah. <br>
+  ```Java
+  String name = "Purnomo";
+  ```
+
+  #### Jenis Variabel
+  ```Java
+  class Person {
+    static String name = "Purnomo"; // static variable
+    int age  = 35; // instance variabel
+
+    void run(){
+      int speed = 10; // local variable
+      // ... 
+    }
+
+    public static void main(String... args){
+      int data = 50; //instance variable
+    }
+  }; // end of class
+  ```
+  - Variabel Lokal (*Local Variabel*) <br>
+    Variabel lokal adalah variabel yang dideklarasikan **didalam suatu method**.
+
+  - Variabel Instans (*Instance Variabel*)
+    Variabel Instans adalah variabel yang dideklarasikan tanpa *keyword* **static**, didefinisikan di luar deklarasi method. Mereke spesifik untuk objek dan dikenal sebagai variabel instans.
+
+  - Variabel Statis (*Static Variabel*)
+    Variabel statis diinisialisasikan sekali, pada awal ekseskusi program. Variabel-variabel ini harus diinisialisasi terlebih dahulu, sebelum inisialisasi variabel instan apa pun.
 
 [top ↑](#daftar-isi)<br><br>
