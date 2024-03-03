@@ -26,6 +26,12 @@
   - [2. Variabel](#2-variabel)
     - [Deklarasi Variabel](#deklarasi-variabel)
     - [Inisialisasi Variabel](#inisialisasi-variabel)
+- [C. Conditionals](#c-conditionals)
+  - [1. If *Statement*](#1-if-statement)
+  - [2. If-else *Statement*](#2-if-else-statement)
+  - [3. If-else-if *Ladder*](#3-if-else-if-ladder)
+  - [4. If Bersarang](#4-if-bersarang)
+  - [5. Switch Case](#5-switch-case)
 
 
 
@@ -341,4 +347,91 @@ Ada beberapa terminologi atau istilah umum pada Java, antara lain:
   - Variabel Statis (*Static Variabel*)
     Variabel statis diinisialisasikan sekali, pada awal ekseskusi program. Variabel-variabel ini harus diinisialisasi terlebih dahulu, sebelum inisialisasi variabel instan apa pun.
 
+[top ↑](#daftar-isi)<br><br>
+
+## C. Conditionals
+  Pernyataan kondisional (*conditional statement*) ada pada berbagai bahasa pemrograman untuk menginstrusikan komputer agar mengambil tindakan jika sebuah atau beberapa kondisi terpenuhi. Tindakan tersebut diambil jika dan hanya jika kondisi yang telah ditentukan bernilai benar atau salah, bergantung pada fungsi yang ada pada logika pemrograman yang ada.
+### 1. If *Statement*
+  Pernyataan <code>if</code> akan menguji sebuah kondisi. Jika kondisi bernilai <code>true</code> maka program pada blok <code>if</code> akan dijalankan.<br>
+  **Contoh:**
+  ```Java
+  int umur = 12;
+  if (umur < 18) // Kondisi
+    {
+      // Tindakan
+      System.out.println("Anak-anak");
+    }
+  ```
+### 2. If-else *Statement*
+  Pernyataan If-else sama seperti <code>if</code> yaitu akan mengeksekusi program pada blok <code>if</code> jika kondisi bernilai <code>true</code>. Semantara, jika bernilai <code>false</code> maka program pada blok <code>else</code> yang akan dieksekusi.<br>
+  **Contoh:**
+  ```Java
+  int num = 3;
+  if(num % 2 == 0){
+    System.out.println("Genap");
+  } else {
+    // blok ini akan dieksekusi
+    System.out.println("Ganjil");
+  }
+  ```
+### 3. If-else-if *Ladder*
+  Pernyataan ini akan mengeksekusi satu dari beberapa kondisi.<br>
+  **Contoh:**
+  ```Java
+    int num = 10;
+    if(num >= 0){
+      // dieksekusi
+      System.out.println("angka positif");
+    } else if(num == 10 ){
+      // biarpun bernilai benar tapi tidak dieksekusi
+      System.out.println("== 10");
+    } else {
+      System.out.println("angka negatif");
+    }
+  ```
+### 4. If Bersarang
+  <code>if</code> bersarang singkatnya pernyataan <code>if</code> didalam <code>if</code>. <code>if</code> yang berada di dalam <code>if</code> akan dijalankan hanya jika <code>if</code> yang berada diluar bernilai <code>true</code>.<br>
+
+  **Contoh:**
+  ```Java
+    int age = 20;
+    int weight = 70;
+
+    if (age > 18) {
+      if (weight >= 50) {
+        // dieksekusi
+        System.out.println("Boleh donor darah");
+      } else {
+        System.out.println("BB Kurang");
+      }
+    } else {
+      System.out.println("Umur kurang");
+    }
+  ```
+### 5. Switch Case
+  Pernyataan <code>switch</code> sederhananya menguji kesataran sebuah variabel terhadap beberapa nilai. pada <code>switch</code>, setiap blok diakhiri dengan <code>break</code>. Pernyataan dalam <code>switch</code> dinyatakan dengan <code>case</code>. Jika blok <code>case</code> tidak memiliki <code>break</code> maka <code>case</code> selanjutnya tetap akan dieksekusi.
+  <br>
+
+  **Contoh:**
+  ```Java
+    int num = 20;
+    switch (num) {
+      case 10:
+        System.out.println("Sepuluh");
+        break;
+
+      case 15:
+        System.out.println("Limabelas");
+        break;
+
+      case 20:
+      // akan dieksekusi dan
+        System.out.println("Duapuluh");
+        break;
+    
+      default:
+        System.out.println("Tidak tahu");
+        break;
+    }
+  ```
 [top ↑](#daftar-isi)<br><br>
